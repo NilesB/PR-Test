@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a multi-line script
       run: |
-        echo ${github.ref}
+        echo ${{GITHUB_REF}}
         echo new
