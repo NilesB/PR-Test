@@ -1,8 +1,6 @@
 name: PR_New
 
-on:
-  pull_request:
-    types: [assigned]
+on: pull_request
 
 jobs:
   build:
